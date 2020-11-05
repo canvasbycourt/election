@@ -3,7 +3,7 @@ var createPolitician = function(name, partyColor) {
     var politician = {};
     politician.name = name;
     politician.electionResults = null;
-    politician.totalVotes=0;
+    politician.totalVotes = 0;
     politician.partyColor = partyColor;
 
     politician.announcePolitician = function (){
