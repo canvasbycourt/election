@@ -23,18 +23,9 @@ header {
 }
 
 .map-container {
-  width:100%;
+  width:800px;
   margin: 0 auto;
   position:relative;
-  height:auto;
-  object-fit:contain;
-}
-
-#map_canvas {
-  position: relative;
-  object-fit: contain;
-  width: 100%;
-  height: auto;
 }
 
 #stateResults {
