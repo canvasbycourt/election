@@ -52,25 +52,25 @@ th, td {
   padding: 8px;
 }
 #stateResults th{
-  background-color: #3b3b3b;
+  background-color: #6e6e73;
   color: white;
 }
 #countryResults th {
-  background-color: #11a855;
+  background-color: #6e6e73;
   color: white;
 }
 .name-1 {
-  background-color: #de0d02;
+  background-color: #cd181c;
   color: white;
 }
 .name-2 {
-  background-color: #00008b;
+  background-color: #0a6aa6;
   color: white;
 }
 .winner {
   background-color: white;
-  color: #11a855;
-	font-weight:bold;
+  color: #6e6e73;
+  font-weight:bold;
 }
 
 footer p {
@@ -80,6 +80,6 @@ footer p {
   text-transform: uppercase;
 }
 footer span {
-  color: #f16059;
+  color: #6e6e73;
   padding: 0 5px;
 }
