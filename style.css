@@ -11,7 +11,7 @@ body {
   color: #454545;
   margin: 0px;
   padding: 0px;
-  background-color: #eee;
+  background-color: #eee!important;
 }
 
 header {
@@ -23,9 +23,18 @@ header {
 }
 
 .map-container {
-  width:800px;
+  width:100%;
   margin: 0 auto;
   position:relative;
+  height:auto;
+  object-fit:contain;
+}
+
+#map_canvas {
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 #stateResults {
